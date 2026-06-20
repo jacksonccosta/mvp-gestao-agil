@@ -18,11 +18,7 @@ fidelidade para a primeira sprint.
 | **Backlog do Produto + DoR + DoD** | [`product-backlog.pdf`](product-backlog.pdf) · fonte Jira em [`jira-import/`](jira-import/) | 1,5 |
 | **Backlog da Sprint 1** | [`sprint-backlog.pdf`](sprint-backlog.pdf) | 1,5 |
 | **Protótipos (wireframes)** | [`wireframes/`](wireframes/) | 2,0 |
-| **Vídeo de apresentação** | `apresentacao-mvp.mp4` ou `video-url.txt` (roteiro em [`docs/video-roteiro.md`](docs/video-roteiro.md)) | 2,0 |
-
-> ⚠️ **Passos que dependem das suas contas** (publicar Miro, importar no Jira, gravar o
-> vídeo, criar o repositório público): veja o guia em
-> [`docs/passos-manuais.md`](docs/passos-manuais.md). Todo o conteúdo já está pronto.
+| **Vídeo de apresentação** | `apresentacao-mvp.mp4` ou `video-url.txt` — apoio: slides [`docs/apresentacao-slides.pptx`](docs/apresentacao-slides.pptx), narração [`docs/narracao.md`](docs/narracao.md), roteiro [`docs/video-roteiro.md`](docs/video-roteiro.md) | 2,0 |
 
 ---
 
@@ -59,21 +55,11 @@ mvp-gestao-agil/
 ├── docs/
 │   ├── lean-inception.md       # Todas as etapas da Lean Inception
 │   ├── mvp-canvas.md           # Conteúdo do MVP Canvas
-│   ├── video-roteiro.md        # Roteiro do vídeo de showcase
-│   └── passos-manuais.md       # Guia dos passos que dependem das suas contas
-├── jira-import/
-│   └── jira-backlog-import.csv # Backlog pronto para importar no Jira
-└── build/                      # Scripts que geram PDFs/wireframes/canvas (reprodutível)
-```
-
-## 🔁 Como regerar os artefatos
-```bash
-pip install reportlab pillow
-cd build
-python gen_pdfs.py        # product-backlog.pdf e sprint-backlog.pdf
-python gen_wireframes.py  # imagens em wireframes/
-python gen_canvas.py      # assets/mvp-canvas.png
-python gen_jira_csv.py    # jira-import/jira-backlog-import.csv
+│   ├── apresentacao-slides.pptx # Slides de apoio para o vídeo
+│   ├── narracao.md             # Texto de narração do vídeo
+│   └── video-roteiro.md        # Roteiro do vídeo de showcase
+└── jira-import/
+    └── jira-backlog-import.csv # Backlog pronto para importar no Jira
 ```
 
 ---

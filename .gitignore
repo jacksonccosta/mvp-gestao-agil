@@ -1,8 +1,16 @@
+# Itens internos (não publicar)
+docs/passos-manuais.md
+build/
+
 # Artefatos de build / previews temporários
 build/__pycache__/
+build/node_modules/
+build/package*.json
 build/_prev_*.png
+build/_slides_preview.pdf
 build/_check.py
 build/_render.py
+build/_pptx_qa.py
 *.pyc
 .DS_Store
 Thumbs.db
