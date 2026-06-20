@@ -1,0 +1,8 @@
+# Artefatos de build / previews temporários
+build/__pycache__/
+build/_prev_*.png
+build/_check.py
+build/_render.py
+*.pyc
+.DS_Store
+Thumbs.db
