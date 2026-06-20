@@ -18,7 +18,7 @@ fidelidade para a primeira sprint.
 | **Backlog do Produto + DoR + DoD** | [`product-backlog.pdf`](product-backlog.pdf) · fonte Jira em [`jira-import/`](jira-import/) | 1,5 |
 | **Backlog da Sprint 1** | [`sprint-backlog.pdf`](sprint-backlog.pdf) | 1,5 |
 | **Protótipos (wireframes)** | [`wireframes/`](wireframes/) | 2,0 |
-| **Vídeo de apresentação** | `apresentacao-mvp.mp4` ou `video-url.txt` — apoio: slides [`docs/apresentacao-slides.pptx`](docs/apresentacao-slides.pptx), narração [`docs/narracao.md`](docs/narracao.md), roteiro [`docs/video-roteiro.md`](docs/video-roteiro.md) | 2,0 |
+| **Vídeo de apresentação** | https://youtu.be/qCMEb7ecC7Y | 2,0 |
 
 ---
 
